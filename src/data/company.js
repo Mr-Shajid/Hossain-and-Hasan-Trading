@@ -1,10 +1,10 @@
-// All company details live here. Replace the placeholders with real info.
+// All company details live here.
 export const company = {
-  name: 'Your Company Name',
+  name: 'Hossain & Hasan Trading',
   tagline: 'Your Trusted Fresh Fruit Import Partner',
   address: '123 Placeholder Street, City, Country',
   phone: '+00 000 000 0000',
-  whatsappNumber: '0000000000', // digits only, with country code, no + or spaces
+  whatsappNumber: '0000000000', // digits only
   email: 'info@example.com',
 }
 

@@ -4,7 +4,7 @@ export const products = [
     id: 'apple',
     name: 'Apple',
     emoji: '🍎',
-    origins: ['China', 'Brazil', 'Poland', 'South Africa'],
+    origins: ['China', 'Brazil', 'Poland', 'South Africa', 'India'],
     description: 'Crisp, juicy apples sourced from trusted growers. Placeholder description.',
   },
   {
