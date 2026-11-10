@@ -15,8 +15,9 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <Link to="/" onClick={close} className="text-xl font-bold text-green-700">
-          🍏 {company.name}
+        <Link to="/" onClick={close} className="flex items-center gap-2 text-l font-bold text-green-700">
+          <img src="/favicon.svg" alt="Logo" className="h-11 w-11" />
+          <span>{company.name}</span>
         </Link>
 
         {/* Desktop menu */}
@@ -62,7 +63,7 @@ export default function Navbar() {
           <li><NavLink to="/about" onClick={close} className={linkClass}>About Us</NavLink></li>
           <li><NavLink to="/services" onClick={close} className={linkClass}>Services</NavLink></li>
           <li><NavLink to="/products" onClick={close} className={linkClass}>Products</NavLink></li>
-          {products.map((p) => (
+          {/*{products.map((p) => (
             <li key={p.id} className="pl-6">
               <Link
                 to={`/products#${p.id}`}
@@ -72,7 +73,7 @@ export default function Navbar() {
                 {p.emoji} {p.name}
               </Link>
             </li>
-          ))}
+          ))}*/}
           <li><NavLink to="/contact" onClick={close} className={linkClass}>Contact Us</NavLink></li>
         </ul>
       )}

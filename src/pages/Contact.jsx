@@ -43,7 +43,7 @@ export default function Contact() {
               <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">
                 Business Hours
               </p>
-              <p className="mt-1 text-gray-700">Mon – Sat: 9:00 AM – 6:00 PM (placeholder)</p>
+              <p className="mt-1 text-gray-700 text-l">Su – Th : 9:00 AM – 6:00 PM </p>
             </div>
           </div>
 

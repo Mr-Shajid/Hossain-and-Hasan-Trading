@@ -59,8 +59,7 @@ export default function Home() {
             <h2 className="text-2xl font-bold text-green-900 md:text-3xl">Who We Are</h2>
             <p className="mt-4 text-gray-600">
               {company.name} is an import company bringing fresh, high-quality fruit from
-              around the world to local markets. This is placeholder text: replace it with the
-              company’s real introduction.
+              around the world to local markets.
             </p>
             <Link to="/about" className="mt-5 inline-block font-semibold text-green-700 hover:underline">
               Learn more about us →

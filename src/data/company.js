@@ -2,10 +2,10 @@
 export const company = {
   name: 'Hossain & Hasan Trading',
   tagline: 'Your Trusted Fresh Fruit Import Partner',
-  address: '123 Placeholder Street, City, Country',
-  phone: '+00 000 000 0000',
-  whatsappNumber: '0000000000', // digits only
-  email: 'info@example.com',
+  address: 'Firingi Bazar, Chattogram, Bangladesh',
+  phone: '+8801819313542 ',
+  whatsappNumber: '01879466744', // digits only
+  email: 'hossainsonsctg@gmail.com',
 }
 
 export const whatsappLink = (message = 'Hello, I would like to request a quote.') =>

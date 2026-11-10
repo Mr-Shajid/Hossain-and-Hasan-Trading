@@ -6,7 +6,9 @@ export default function Footer() {
     <footer className="bg-green-900 text-green-50">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3">
         <div>
-          <h3 className="text-lg font-bold">🍏 {company.name}</h3>
+          <h3 className="text-lg font-bold">
+            <img src="/favicon.svg" alt="Logo" className="h-11 w-11" /> {company.name}
+          </h3>
           <p className="mt-2 text-sm text-green-200">{company.tagline}</p>
         </div>
 
@@ -34,6 +36,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+        
       </div>
 
       <div className="border-t border-green-800 py-4 text-center text-xs text-green-300">
